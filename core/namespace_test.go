@@ -1,0 +1,5 @@
+package core
+
+const userDataUpload = "{\"namespaceID\": \"0x00000000\",\n\t\"data\": \"dGVzdA==\",\n\t\"labels\": {\n\t\t\"contentType\": \"img\",\n\t\t\"price\": 1000\n\t},\n\t\"methodName\": \"DataUpload\",\n\t\"storageFee\": 100,\n\t\"lightingProof\": \"dGVzdA==\"\n}"
+const createNamespace = "{\n\t\"name\": \"babc\",\n\t\"permission\": \"public\",\n\t\"methodName\": \"CreateNamespace\",\n\t\"owner\": \"0xbb8227fc9e5716d12f4b4eea18ac2b188cf19851\",\n\t\"storageFee\": 100,\n\t\"admins\": [\"0xbb8227fc9e5716d12f4b4eea18ac2b188cf19851\", \"0xbb8227fc9e5716d12f4b4eea18ac2b188cf19871\"]\n}"
+const updateNamespace = "{\n\t\"namespaceID\": \"0x00000001\",\n\t\"name\": \"babc\",\n\t\"permission\": \"private\",\n\t\"methodName\": \"UpdateNamespace\",\n\t\"storageFee\": 100,\n\t\"owner\": \"0xbb8227fc9e5716d12f4b4eea18ac2b188cf19851\",\n\t\"admins\": [\"0xbb8227fc9e5716d12f4b4eea18ac2b188cf19851\", \"0xbb8227fc9e5716d12f4b4eea18ac2b188cf19871\", \"0xbb8227fc9e5716d12f4b4eea18ac2b188cf19878\"]\n}"
